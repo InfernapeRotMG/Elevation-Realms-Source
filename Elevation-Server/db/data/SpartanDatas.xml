@@ -1,0 +1,485 @@
+﻿<Object>
+  <Object type="0x9007" id="Spartan">
+    <Class>Player</Class>
+    <Description>Spartan deals medium damage at short range, throws knifes at enemies</Description>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>14</Index>
+    </AnimatedTexture>
+    <HitSound>player/knight_hit</HitSound>
+    <DeathSound>player/knight_death</DeathSound>
+    <Player/>
+    <BloodProb>1.0</BloodProb>
+    <SlotTypes>27, 28, 7, 9, 0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+    <Equipment>0x9008, 0x9015, -1, -1, 0xa22, -1, -1, -1, -1, -1, -1, -1</Equipment>
+    <MaxHitPoints max="690">100</MaxHitPoints>
+    <MaxMagicPoints max="385">100</MaxMagicPoints>
+    <Attack max="55">12</Attack>
+    <Defense max="15">0</Defense>
+    <Speed max="55">10</Speed>
+    <Dexterity max="45">15</Dexterity>
+    <HpRegen max="55">12</HpRegen>
+    <MpRegen max="40">12</MpRegen>
+    <Might max="30">2</Might>
+    <Luck max="10">2</Luck>
+    <LevelIncrease min="20" max="30">MaxHitPoints</LevelIncrease>
+    <LevelIncrease min="5" max="15">MaxMagicPoints</LevelIncrease>
+    <LevelIncrease min="1" max="2">Attack</LevelIncrease>
+    <LevelIncrease min="0" max="0">Defense</LevelIncrease>
+    <LevelIncrease min="0" max="2">Speed</LevelIncrease>
+    <LevelIncrease min="0" max="2">Dexterity</LevelIncrease>
+    <LevelIncrease min="0" max="1">HpRegen</LevelIncrease>
+    <LevelIncrease min="0" max="2">MpRegen</LevelIncrease>
+    <LevelIncrease min="0" max="0">Might</LevelIncrease>
+    <LevelIncrease min="0" max="0">Luck</LevelIncrease>
+    <DisplayId>Spartan</DisplayId>
+    <UnlockLevel level="20" type="0x031d">Warrior</UnlockLevel>
+    <UnlockLevel level="20" type="0x031f">Paladin</UnlockLevel>
+    <UnlockLevel level="20" type="0x031e">Knight</UnlockLevel>
+  </Object>
+
+  <Object type="0x9008" id="Rusty Spear">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xf0</Index>
+    </Texture>
+    <SlotType>27</SlotType>
+    <Tier>0</Tier>
+    <Description>A rusted spear, dont poke it</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/blunt_sword</Sound>
+    <Projectile>
+      <ObjectId>Blade</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>35</MinDamage>
+      <MaxDamage>75</MaxDamage>
+      <LifetimeMS>445</LifetimeMS>
+    </Projectile>
+    <BagType>1</BagType>
+    <NumProjectiles>1</NumProjectiles>
+    <DisplayId>Rusty Spear</DisplayId>
+  </Object>
+
+  <Object type="0x9009" id="Iron Spear">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xf1</Index>
+    </Texture>
+    <SlotType>27</SlotType>
+    <Tier>1</Tier>
+    <Description>A iron spear, looks dangerous!</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/blunt_sword</Sound>
+    <Projectile>
+      <ObjectId>Blade</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>45</MinDamage>
+      <MaxDamage>85</MaxDamage>
+      <LifetimeMS>445</LifetimeMS>
+    </Projectile>
+    <BagType>1</BagType>
+    <NumProjectiles>1</NumProjectiles>
+    <DisplayId>Iron Spear</DisplayId>
+  </Object>
+
+  <Object type="0x900a" id="Steel Spear">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xf2</Index>
+    </Texture>
+    <SlotType>27</SlotType>
+    <Tier>2</Tier>
+    <Description>A steel spear, looks shiny!</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/blunt_sword</Sound>
+    <Projectile>
+      <ObjectId>Blade</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>55</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>445</LifetimeMS>
+    </Projectile>
+    <BagType>1</BagType>
+    <NumProjectiles>1</NumProjectiles>
+    <DisplayId>Steel Spear</DisplayId>
+  </Object>
+
+  <Object type="0x900b" id="Mithril Spear">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xf3</Index>
+    </Texture>
+    <SlotType>27</SlotType>
+    <Tier>3</Tier>
+    <Description>A mithril spear is so blue</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/blunt_sword</Sound>
+    <Projectile>
+      <ObjectId>Blade</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>100</MinDamage>
+      <MaxDamage>125</MaxDamage>
+      <LifetimeMS>445</LifetimeMS>
+    </Projectile>
+    <BagType>1</BagType>
+    <NumProjectiles>1</NumProjectiles>
+    <DisplayId>Mithril Spear</DisplayId>
+  </Object>
+
+  <Object type="0x900c" id="Emerald Spear">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xf4</Index>
+    </Texture>
+    <SlotType>27</SlotType>
+    <Tier>4</Tier>
+    <Description>A emerald spear is so green</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/blunt_sword</Sound>
+    <Projectile>
+      <ObjectId>Blade</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>125</MinDamage>
+      <MaxDamage>145</MaxDamage>
+      <LifetimeMS>445</LifetimeMS>
+    </Projectile>
+    <BagType>1</BagType>
+    <NumProjectiles>1</NumProjectiles>
+    <DisplayId>Emerald Spear</DisplayId>
+  </Object>
+
+  <Object type="0x900d" id="Ruby Spear">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xf5</Index>
+    </Texture>
+    <SlotType>27</SlotType>
+    <Tier>5</Tier>
+    <Description>A ruby spear is so red</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/blunt_sword</Sound>
+    <Projectile>
+      <ObjectId>Blade</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>145</MinDamage>
+      <MaxDamage>165</MaxDamage>
+      <LifetimeMS>445</LifetimeMS>
+    </Projectile>
+    <BagType>1</BagType>
+    <NumProjectiles>1</NumProjectiles>
+    <DisplayId>Ruby Spear</DisplayId>
+  </Object>
+
+  <Object type="0x900e" id="Sapphire Spear">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xf6</Index>
+    </Texture>
+    <SlotType>27</SlotType>
+    <Tier>6</Tier>
+    <Description>A sapphire spear is so red</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/blunt_sword</Sound>
+    <Projectile>
+      <ObjectId>Blade</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>165</MinDamage>
+      <MaxDamage>180</MaxDamage>
+      <LifetimeMS>445</LifetimeMS>
+    </Projectile>
+    <BagType>1</BagType>
+    <NumProjectiles>1</NumProjectiles>
+    <DisplayId>Sapphire Spear</DisplayId>
+  </Object>
+
+  <Object type="0x900f" id="Bone Spear">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xf7</Index>
+    </Texture>
+    <SlotType>27</SlotType>
+    <Tier>7</Tier>
+    <Description>A bone spear is so white</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/blunt_sword</Sound>
+    <Projectile>
+      <ObjectId>Blade</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>180</MinDamage>
+      <MaxDamage>200</MaxDamage>
+      <LifetimeMS>445</LifetimeMS>
+    </Projectile>
+    <BagType>2</BagType>
+    <NumProjectiles>1</NumProjectiles>
+    <DisplayId>Bone Spear</DisplayId>
+  </Object>
+  
+  <Object type="0x9010" id="Adamant Spear">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xf8</Index>
+    </Texture>
+    <SlotType>27</SlotType>
+    <Tier>8</Tier>
+    <Description>A adamant spear, looks strange</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/blunt_sword</Sound>
+    <Projectile>
+      <ObjectId>Blade</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>220</MaxDamage>
+      <LifetimeMS>445</LifetimeMS>
+    </Projectile>
+    <BagType>2</BagType>
+    <NumProjectiles>1</NumProjectiles>
+    <DisplayId>Adamant Spear</DisplayId>
+  </Object>
+
+  <Object type="0x9011" id="Rune Spear">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xf9</Index>
+    </Texture>
+    <SlotType>27</SlotType>
+    <Tier>9</Tier>
+    <Description>A rune spear, looks sharp</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/blunt_sword</Sound>
+    <Projectile>
+      <ObjectId>Blade</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>220</MinDamage>
+      <MaxDamage>245</MaxDamage>
+      <LifetimeMS>445</LifetimeMS>
+    </Projectile>
+    <BagType>2</BagType>
+    <NumProjectiles>1</NumProjectiles>
+    <DisplayId>Rune Spear</DisplayId>
+  </Object>
+
+  <Object type="0x9012" id="Obsidian Spear">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xfa</Index>
+    </Texture>
+    <SlotType>27</SlotType>
+    <Tier>10</Tier>
+    <Description>A obsidian spear why so black?</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/blunt_sword</Sound>
+    <Projectile>
+      <ObjectId>Blade</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>245</MinDamage>
+      <MaxDamage>270</MaxDamage>
+      <LifetimeMS>445</LifetimeMS>
+    </Projectile>
+    <BagType>4</BagType>
+    <NumProjectiles>1</NumProjectiles>
+    <DisplayId>Obsidian Spear</DisplayId>
+  </Object>
+
+  <Object type="0x9013" id="Dragon Spear">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xfb</Index>
+    </Texture>
+    <SlotType>27</SlotType>
+    <Tier>11</Tier>
+    <Description>A dragon spear</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/blunt_sword</Sound>
+    <Projectile>
+      <ObjectId>Blade</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>270</MinDamage>
+      <MaxDamage>290</MaxDamage>
+      <LifetimeMS>445</LifetimeMS>
+    </Projectile>
+    <BagType>4</BagType>
+    <NumProjectiles>1</NumProjectiles>
+    <DisplayId>Dragon Spear</DisplayId>
+  </Object>
+
+  <Object type="0x9014" id="Ancient Spear">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xfc</Index>
+    </Texture>
+    <SlotType>27</SlotType>
+    <Tier>12</Tier>
+    <Description>A ancient spear</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/blunt_sword</Sound>
+    <Projectile>
+      <ObjectId>Blade</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>290</MinDamage>
+      <MaxDamage>310</MaxDamage>
+      <LifetimeMS>445</LifetimeMS>
+    </Projectile>
+    <BagType>4</BagType>
+    <NumProjectiles>1</NumProjectiles>
+    <DisplayId>Ancient Spear</DisplayId>
+  </Object>
+
+  <Object type="0x9015" id="Rusted Square Shield">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0xd0</Index>
+    </Texture>
+    <SlotType>28</SlotType>
+    <Tier>0</Tier>
+    <Description>A rusted square shield</Description>
+    <Sound>spell/light_heal</Sound>
+    <Usable/>
+    <BagType>1</BagType>
+    <MpCost>65</MpCost>
+    <Activate effect="Armored" duration="2.5">ConditionEffectSelf</Activate>
+    <DisplayId>Rusted Square Shield</DisplayId>
+  </Object>
+
+  <Object type="0x9016" id="Iron Square Shield">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0xd1</Index>
+    </Texture>
+    <SlotType>28</SlotType>
+    <Tier>1</Tier>
+    <Description>A iron square shield</Description>
+    <Sound>spell/light_heal</Sound>
+    <Usable/>
+    <BagType>1</BagType>
+    <MpCost>85</MpCost>
+    <Activate effect="Armored" duration="3.5">ConditionEffectSelf</Activate>
+    <DisplayId>Iron Square Shield</DisplayId>
+  </Object>
+
+  <Object type="0x9017" id="Mithril Square Shield">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0xd2</Index>
+    </Texture>
+    <SlotType>28</SlotType>
+    <Tier>2</Tier>
+    <Description>A mithril square shield</Description>
+    <Sound>spell/light_heal</Sound>
+    <Usable/>
+    <BagType>1</BagType>
+    <MpCost>105</MpCost>
+    <Activate effect="Armored" duration="4">ConditionEffectSelf</Activate>
+    <DisplayId>Mithril Square Shield</DisplayId>
+  </Object>
+
+  <Object type="0x9018" id="Ruby Square Shield">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0xd3</Index>
+    </Texture>
+    <SlotType>28</SlotType>
+    <Tier>3</Tier>
+    <Description>A ruby square shield</Description>
+    <Sound>spell/light_heal</Sound>
+    <Usable/>
+    <BagType>2</BagType>
+    <FameBonus>1</FameBonus>
+    <MpCost>125</MpCost>
+    <Activate effect="Armored" duration="4.75">ConditionEffectSelf</Activate>
+    <DisplayId>Ruby Square Shield</DisplayId>
+  </Object>
+
+  <Object type="0x9019" id="Bone Square Shield">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0xd4</Index>
+    </Texture>
+    <SlotType>28</SlotType>
+    <Tier>4</Tier>
+    <Description>A Bone square shield</Description>
+    <Sound>spell/light_heal</Sound>
+    <Usable/>
+    <BagType>2</BagType>
+    <FameBonus>2</FameBonus>
+    <MpCost>145</MpCost>
+    <Activate effect="Armored" duration="5">ConditionEffectSelf</Activate>
+    <DisplayId>Bone Square Shield</DisplayId>
+  </Object>
+
+  <Object type="0x901a" id="Obsidian Square Shield">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0xd5</Index>
+    </Texture>
+    <SlotType>28</SlotType>
+    <Tier>5</Tier>
+    <Description>A obsidian square shield</Description>
+    <Sound>spell/light_heal</Sound>
+    <Usable/>
+    <BagType>4</BagType>
+    <FameBonus>3</FameBonus>
+    <MpCost>165</MpCost>
+    <Activate effect="Armored" duration="4.5">ConditionEffectSelf</Activate>
+    <Activate effect="Speedy" duration="1.5">ConditionEffectSelf</Activate>
+    <DisplayId>Obsidian Square Shield</DisplayId>
+  </Object>
+
+  <Object type="0x901b" id="Ancient Square Shield">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0xd6</Index>
+    </Texture>
+    <SlotType>28</SlotType>
+    <Tier>6</Tier>
+    <Description>A ancient square shield</Description>
+    <Sound>spell/light_heal</Sound>
+    <Usable/>
+    <BagType>4</BagType>
+    <FameBonus>4</FameBonus>
+    <MpCost>185</MpCost>
+    <Activate effect="Armored" duration="4.5">ConditionEffectSelf</Activate>
+    <Activate effect="Speedy" duration="2.5">ConditionEffectSelf</Activate>
+    <DisplayId>Ancient Square Shield</DisplayId>
+  </Object>
+
+</Object>

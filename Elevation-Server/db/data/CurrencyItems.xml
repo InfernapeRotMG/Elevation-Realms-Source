@@ -1,0 +1,170 @@
+﻿<Objects>
+  <Object type="0x7412" id="1 Gold">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0xE1</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>1 Gold</Description>
+    <Soulbound/>
+  </Object>
+  <Object type="0x7413" id="5 Gold">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0xE1</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>5 Gold</Description>
+    <Soulbound/>
+  </Object>
+  <Object type="0x7414" id="10 Gold">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0xE1</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>10 Gold</Description>
+    <Soulbound/>
+  </Object>
+  <Object type="0x7415" id="25 Gold">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0xE1</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>25 Gold</Description>
+    <Soulbound/>
+  </Object>
+  <Object type="0x7416" id="50 Gold">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0xE1</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>50 Gold</Description>
+    <Soulbound/>
+  </Object>
+
+  <Object type="0x7417" id="1 Silver">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x566</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>1 Silver</Description>
+    <Soulbound/>
+  </Object>
+  <Object type="0x7418" id="5 Silver">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x566</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>5 Silver</Description>
+    <Soulbound/>
+  </Object>
+  <Object type="0x7419" id="10 Silver">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x566</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>10 Silver</Description>
+    <Soulbound/>
+  </Object>
+  <Object type="0x9000" id="25 Silver">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x566</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>25 Silver</Description>
+    <Soulbound/>
+  </Object>
+  <Object type="0x9001" id="50 Silver">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x566</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>50 Silver</Description>
+    <Soulbound/>
+  </Object>
+
+  <Object type="0x9002" id="1 Bronze">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x565</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>1 Bronze</Description>
+    <Soulbound/>
+  </Object>
+  <Object type="0x9003" id="5 Bronze">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x565</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>5 Bronze</Description>
+    <Sound>use_key</Sound>
+    <Soulbound/>
+  </Object>
+  <Object type="0x9004" id="10 Bronze">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x565</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>10 Bronze</Description>
+    <Soulbound/>
+  </Object>
+  <Object type="0x9005" id="25 Bronze">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x565</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>25 Bronze</Description>
+    <Soulbound/>
+  </Object>
+  <Object type="0x9006" id="50 Bronze">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x565</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>50 Bronze</Description>
+    <Soulbound/>
+  </Object>
+</Objects>
